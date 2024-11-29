@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="input-section">
+            <strong>To :</strong>
+            <br>
+            <input type="text" placeholder="To.." onkeyup="showInput()" id="input1">
+            <br>
+            <strong>Message :</strong>
+            <br>
+            <textarea name="" placeholder="Message Here.." id="textarea" onkeyup="msgInput()"></textarea>
+            <br>
+            <strong>From :</strong>
+            <br>
+            <input type="text" placeholder="From.." onkeyup="fromInput()" id="input2">
+        </div>
+        <div class="output-section">
+            <div>
+                <strong>To :</strong>
+                <div id="toOutPut"></div>
+            </div>
+            <div class="msgbox">
+                <strong>Message :</strong>
+                <div id="messageOutPut"></div>
+            </div>
+            <div class="frombox">
+                <strong>From :</strong>
+                <div id="fromOutPut"></div>
+            </div>
+        </div>
+        <div class="style-section">
+            <img src="../images/img1.jpg" id="img1" onclick="imagechange1()">
+            <img src="../images/img2.jpg" id="img2" onclick="imagechange2()">
+            <img src="../images/img3.jpg" id="img3" onclick="imagechange3()">
+            <img src="../images/img4.jpg" id="img4" onclick="imagechange4()">
+            <div class="colors">
+                <div class="c-1" onclick="change1()"></div>
+                <div class="c-2" onclick="change2()"></div>
+                <div class="c-3" onclick="change3()"></div>
+                <div class="c-4" onclick="change4()"></div>
+                <div class="c-5" onclick="change5()"></div>
+            </div>
+            <button type="reset" onclick="resetbtn()">Reset</button>
+        </div>
+    </div>
+
+
+
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
