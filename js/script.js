@@ -71,6 +71,6 @@ function change5() {
 function resetbtn() {
     document.querySelector("body").style = "";
     document.querySelector(".output-section").style.backgroundImage = 'url()';
-    
+
 }
 
